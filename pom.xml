@@ -56,6 +56,18 @@
 	 </build>
    </profile>
    </profiles>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-PS8MTBE-releases</name>
+        <url>http://localhost:8081/artifactory/Miftah-maven</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>DESKTOP-PS8MTBE-snapshots</name>
+        <url>http://localhost:8081/artifactory/Miftah-maven</url>
+    </snapshotRepository>
+</distributionManagement>
    
 
 
